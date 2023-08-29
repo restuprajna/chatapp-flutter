@@ -39,7 +39,9 @@ class _RegisterPageState extends State<RegisterPage> {
                   "Join now and feel the pleasure",
                   style: TextStyle(fontSize: 15, fontWeight: FontWeight.w400),
                 ),
-                Image.asset("assets/images/register.png"),
+                SizedBox(
+                    height: 300,
+                    child: Image.asset("assets/images/register.png")),
                 TextFormField(
                   decoration: textInputDecoration.copyWith(
                       labelText: "Full Name",
@@ -63,7 +65,7 @@ class _RegisterPageState extends State<RegisterPage> {
                   },
                 ),
                 const SizedBox(
-                  height: 20,
+                  height: 10,
                 ),
                 TextFormField(
                   decoration: textInputDecoration.copyWith(
@@ -88,7 +90,7 @@ class _RegisterPageState extends State<RegisterPage> {
                   },
                 ),
                 const SizedBox(
-                  height: 20,
+                  height: 10,
                 ),
                 TextFormField(
                   obscureText: true,
