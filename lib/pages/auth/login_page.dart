@@ -103,7 +103,7 @@ class _LoginPageState extends State<LoginPage> {
                           elevation: 0,
                           shape: RoundedRectangleBorder(
                               borderRadius: BorderRadius.circular(30))),
-                      child: const Text("Sign up",
+                      child: const Text("Log in",
                           style: TextStyle(color: Colors.white, fontSize: 16)),
                     )),
                 const SizedBox(
