@@ -42,6 +42,9 @@ class _RegisterPageState extends State<RegisterPage> {
                 SizedBox(
                     height: 300,
                     child: Image.asset("assets/images/register.png")),
+                const SizedBox(
+                  height: 10,
+                ),
                 TextFormField(
                   decoration: textInputDecoration.copyWith(
                       labelText: "Full Name",
